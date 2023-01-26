@@ -9,17 +9,18 @@ component
     - CustomLogger.ts (console)
     - CustomError.ts (alert)
    /hooks
-    - useAxios
+    - MyUseAxios
+    - MyUseForm
    /interfaces
-   /Styles
-    - axiosReducer.tsx
-    - AxiosComponenteVisual1.tsx componente visual
-    - AxiosComponenteVisual2.tsx componente visual
+   /forms
+    -DynamicForms
+    -MyForms
+    -MyCheckbox / MyInput / MySelect 
 
-- 2 Componentes para testear la reusabilidad.
-- Pantalla de prueba para testeaer errores.
-- UseReducer, useAxios, customLogger, customError.
-- Clase fetchAxios creada(method, url, data, functionName) => para enviar la información al useAxios. 
-- El useAxiosReducer modifica el estado y el componente visual lo renderiza.
+- A partir de 1 pantalla renderiza 
+   - Formulario con validacion dinamicas
+   - Tabla para visualizar
+   - Eliminar 
+   - Llamado a base de datos
 
 JSON FAKE SERVER para simular el backend.
