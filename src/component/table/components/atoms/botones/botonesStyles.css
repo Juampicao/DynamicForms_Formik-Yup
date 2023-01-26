@@ -1,0 +1,11 @@
+.button {
+  @apply bg-blue-500 font-bold text-white px-5  py-2.5 rounded-2xl hover:bg-blue-600 hover:scale-105 duration-200 hover:duration-200
+}
+
+.delete{
+  @apply bg-red-500 hover:bg-red-600
+}
+
+.invalid {
+  @apply opacity-50	bg-green-400
+}

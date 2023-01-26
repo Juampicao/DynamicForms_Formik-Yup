@@ -1,0 +1,32 @@
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.container span{
+ color: rgb(240, 2, 2);
+}
+
+
+.axios-class button {
+  flex-direction: row;
+  margin: 0.3rem;
+  padding: 0.5rem;
+  background-color: rgb(71, 214, 0);
+  font: bold;
+  text-transform: uppercase;
+  
+}
+
+.container-parent{
+  padding: 1rem;
+  border: 3px solid #555;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: antiquewhite;
+}

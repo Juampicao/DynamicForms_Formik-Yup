@@ -1,0 +1,50 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+/*?  - - - -  - -- - Function Btn - - - - - -- -   */
+
+
+.functionBtn {
+  @apply bg-blue-500 font-bold text-white px-5  py-2.5 rounded-2xl hover:bg-blue-600 hover:scale-105 duration-200 hover:duration-200
+}
+
+.delete{
+  @apply bg-red-500 hover:bg-red-600
+}
+
+
+/*?  - - - -  - -- - Function Btn - - - - - -- -   */
+
+
+/*  - - - -  - -- - TABLE - - - - - -- -   */
+
+.custom-table {
+  @apply overflow-auto   my-5  text-center max-w-7xl mx-3  border rounded-3xl
+}
+
+.custom-table table{
+  @apply w-full 
+}
+
+.custom-table th{
+  @apply bg-white border-b-2 border-gray-200 p-2
+}
+
+
+.custom-table td{
+  @apply p-1
+}
+
+.custom-table tbody{
+  @apply divide-y divide-gray-200 bg-white
+}
+
+
+/*  - - - -  - -- - TABLE - - - - - -- -   */

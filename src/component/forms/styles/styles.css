@@ -1,0 +1,85 @@
+
+/*? - - - --  Error Message - - - - -- */
+
+.error-component-styles {
+    @apply bg-red-500 text-white w-full  flex  py-2  px-2 border rounded-md font-bold
+} 
+/* - - - --  Error Message - - - - -- */
+
+
+/*? - - - --  Form - - - - -- */
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* min-width: 400px; */
+}
+
+/* - - - --  Form - - - - -- */
+
+
+/*? - - - --  Container - - - - -- */
+
+
+  .form_container {
+    @apply   shadow-md rounded-lg  p-5 sm:px-10 md:max-w-2xl my-5 bg-white mx-auto
+  }
+
+  .form_container div {
+    @apply px-2 py-3 space-x-1 space-y-1
+
+  }
+
+/* - - - --  Container - - - - -- */
+
+/*? - - - --  Label - - - - -- */
+
+  .form_container label {
+    @apply text-slate-900 font-bold capitalize ;
+  }
+
+  .form_container .submit{
+    @apply bg-blue-500 font-bold text-white px-5  py-2.5 rounded-2xl hover:bg-blue-600 hover:scale-105 duration-200 hover:duration-200
+  }
+
+  .form_container input {
+    @apply hover:cursor-pointer ;
+  }
+
+/* - - - --  Label - - - - -- */
+
+
+/*? - - - --  Select - - - - -- */
+
+  .selectstyles{
+    @apply block px-4 p-2 ml-3  border border-black rounded-md capitalize hover:cursor-pointer
+  }
+  
+/* - - - --  Select - - - - -- */
+
+/*? - - - --  Inputs - - - - -- */
+  div input {
+  @apply block w-full p-2 px-4 bg-gray-100 rounded-md mt-1 
+}
+
+
+input {
+  border-style: solid;
+  border-color: rgb(31, 31, 43);
+  border-width: 1px;
+}
+
+/* - - - --  Inputs - - - - -- */
+
+
+/*? - - - --  TextArea - - - - -- */
+
+textarea {
+  border-style: solid;
+  border-color: rgb(31, 31, 43);
+  border-width: 1px;
+}
+textarea{
+  @apply rounded-md
+}
+/* - - - --  TextArea - - - - -- */

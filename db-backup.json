@@ -1,0 +1,168 @@
+{
+  "people": [
+    {
+      "name": "Juan",
+      "email": "juampitrading@gmail.com",
+      "helado": "2",
+      "id": 4
+    }
+  ],
+  "clubs": [
+    {
+      "institution": "Juventus",
+      "country": "Italia",
+      "id": 201
+    },
+    {
+      "institution": "independiente",
+      "country": "Argentina",
+      "id": 202
+    },
+    {
+      "institution": "River",
+      "country": "Argentina",
+      "id": 204
+    },
+    {
+      "institution": "Alianza",
+      "country": "España",
+      "id": 205
+    },
+    {
+      "institution": "Alianza",
+      "country": "Portugal",
+      "id": 206
+    },
+    {
+      "institution": "UbaSt",
+      "country": "Portugal",
+      "id": 207
+    },
+    {
+      "name": "Verito",
+      "email": "juan@correo.com",
+      "helado": "2",
+      "id": 208
+    },
+    {
+      "apellido": "sssss",
+      "lastName": "Perez",
+      "email": "juan@correo.com",
+      "favoriteGame": "2",
+      "id": 209
+    },
+    {
+      "name": "mainl",
+      "email": "juan@correo.com",
+      "helado": "2",
+      "id": 210
+    },
+    {
+      "name": "ULTIMA",
+      "email": "asfas@gmasil.com",
+      "helado": "1",
+      "id": 211
+    }
+  ],
+  "schemaPeople": [
+    {
+      "type": "input",
+      "name": "name",
+      "placeholder": "nombre de la persona",
+      "label": "Nombre",
+      "value": "",
+      "validations": [
+        {
+          "type": "required"
+        },
+        {
+          "type": "minLength",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "type": "email",
+      "name": "email",
+      "placeholder": "persona@persona.com",
+      "label": "Correo Electronico de la persona",
+      "value": "",
+      "validations": [
+        {
+          "type": "required"
+        },
+        {
+          "type": "email"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "name": "helado",
+      "label": "Gusto de Helado ",
+      "value": "",
+      "options": [
+        {
+          "id": 1,
+          "label": "Crema del Cielo"
+        },
+        {
+          "id": 2,
+          "label": "Tramontana"
+        },
+        {
+          "id": 3,
+          "label": "Cookies"
+        }
+      ],
+      "validations": [
+        {
+          "type": "required"
+        }
+      ]
+    }
+  ],
+  "schemaClub": [
+    {
+      "type": "input",
+      "name": "institution",
+      "placeholder": "Institucion",
+      "label": "institution",
+      "value": "",
+      "validations": [
+        {
+          "type": "required"
+        },
+        {
+          "type": "minLength",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "name": "country",
+      "label": "Country ",
+      "value": "",
+      "options": [
+        {
+          "id": "Argentina",
+          "label": "Argentina"
+        },
+        {
+          "id": "España",
+          "label": "España"
+        },
+        {
+          "id": "Portugal",
+          "label": "Portugal"
+        }
+      ],
+      "validations": [
+        {
+          "type": "required"
+        }
+      ]
+    }
+  ]
+}

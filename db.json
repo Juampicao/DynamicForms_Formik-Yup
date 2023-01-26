@@ -1,0 +1,173 @@
+{
+  "people": [
+    {
+      "name": "Juan",
+      "email": "juampitrading@gmail.com",
+      "helado": "Tramontana",
+      "id": 4
+    },
+    {
+      "name": "Gonza",
+      "email": "gonzamorales@gmail.com",
+      "helado": "Crema del Cielo",
+      "id": 5
+    },
+    {
+      "name": "Verito",
+      "email": "vero@vero.com",
+      "helado": "Crema del Cielo",
+      "id": 6
+    }
+  ],
+  "clubs": [
+    {
+      "institution": "Real Madrid",
+      "country": "España",
+      "acceptPolitics": true,
+      "id": 205
+    },
+    {
+      "institution": "Juventus",
+      "country": "Italia",
+      "acceptPolitics": true,
+      "id": 201
+    },
+    {
+      "institution": "independiente",
+      "country": "Argentina",
+      "acceptPolitics": true,
+      "id": 202
+    },
+    {
+      "institution": "Alianza",
+      "country": "Argentina",
+      "acceptPolitics": false,
+      "id": 206
+    },
+    {
+      "institution": "Alianza",
+      "country": "Argentina",
+      "acceptPolitics": false,
+      "id": 207
+    }
+  ],
+  "schemaPeople": [
+    {
+      "type": "input",
+      "name": "name",
+      "placeholder": "nombre de la persona",
+      "label": "Nombre",
+      "value": "",
+      "validations": [
+        {
+          "type": "required",
+          "value": "El nombre es obligatorio"
+        },
+        {
+          "type": "minLength",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "type": "email",
+      "name": "email",
+      "placeholder": "persona@persona.com",
+      "label": "Correo Electronico de la persona",
+      "value": "",
+      "validations": [
+        {
+          "type": "required",
+          "value": "Completa el correo"
+        },
+        {
+          "type": "email"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "name": "helado",
+      "label": "Gusto de Helado ",
+      "value": "",
+      "options": [
+        {
+          "id": 1,
+          "label": "Crema del Cielo"
+        },
+        {
+          "id": 2,
+          "label": "Tramontana"
+        },
+        {
+          "id": 3,
+          "label": "Cookies"
+        }
+      ],
+      "validations": [
+        {
+          "type": "required",
+          "value": "No te gusta el helado?"
+        }
+      ]
+    }
+  ],
+  "schemaClub": [
+    {
+      "type": "input",
+      "name": "institution",
+      "placeholder": "Institucion",
+      "label": "institution",
+      "value": "",
+      "validations": [
+        {
+          "type": "required"
+        },
+        {
+          "type": "minLength",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "name": "country",
+      "label": "Country ",
+      "value": "",
+      "options": [
+        {
+          "id": "Argentina",
+          "label": "Argentina"
+        },
+        {
+          "id": "España",
+          "label": "España"
+        },
+        {
+          "id": "Portugal",
+          "label": "Portugal"
+        }
+      ],
+      "validations": [
+        {
+          "type": "required",
+          "value": "Completa el pais"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "name": "acceptPolitics",
+      "label": "Aceptar Politicas",
+      "validations": [
+        {
+          "type": "required",
+          "value": "Acepta  las politicas"
+        },
+        {
+          "type": "checkbox"
+        }
+      ]
+    }
+  ]
+}
